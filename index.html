@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="./images/logo.png" alt="">
+            <ul>
+                <li><img src="./images/bell-regular.svg" alt=""></li>
+                <li><img src="./images/envelope-regular.svg" alt=""></li>
+                <li><img src="./images/video-solid.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/magnifying-glass-solid.svg" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./images/profile_pic.jpg" alt="">
+            </div>
+
+        </div>
+            <!---------------- Settings Menu ------------------------------>
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile_pic.jpg" alt="">
+                    <div>
+                        <p>Sarbajeet Parida</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Provide your valuable feedback</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-link">
+                    <img src="images/settings.png" class="settings-icon">
+                    <a href="#">Settings and Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-link">
+                    <img src="images/helpandsupport.png" class="settings-icon">
+                    <a href="#">Help and Support <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-link">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display and accessibility<img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-link">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="left-side-bar">
+        <div class="imp-links">
+            <a href="#"><img src="./images/newspaper-regular.svg" alt="">Latest News</a>
+            <a href="#"><img src="./images/friends.svg" alt="">Friends</a>
+            <a href="#"><img src="./images/people-group-solid.svg" alt="">Group</a>
+            <a href="#"><img src="./images/marketplace.svg" alt="">Marketplace</a>
+            <a href="#"><img src="./images/tv-solid.svg" alt="">Watch</a>
+            <a href="#">See More</a>
+
+
+        </div>
+        <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="./images/web-developer.jpeg">Web Developers</a>
+            <a href="#"><img src="./images/web-designer.png">Web Design Course</a>
+            <a href="#"><img src="./images/full-stack-development.png">Full Stack Development</a>
+            <a href="#"><img src="./images/video-editor.jpg">Video Editing</a>
+
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="story-gallery">
+            <div class="story story1">
+                <img src="images/circle-plus-solid.svg" alt="">
+                <p>Post Story</p>
+            </div>
+            <div class="story story2">
+                <img src="images/capt-america.jpg" alt="">
+                <p>Captain America</p>
+            </div>
+            <div class="story story3">
+                <img src="images/thor.jpg" alt="">
+                <p>Thor</p>
+            </div>
+            <div class="story story4">
+                <img src="images/ironman.jpg" alt="">
+                <p>Ironman</p>
+            </div>
+            <div class="story story5">
+                <img src="images/hulk.jpg" alt="">
+                <p>Hulk</p>
+            </div>
+            
+            
+        </div>
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/profile_pic.jpg" alt="">
+                <div>
+                    <p>Sarbajeet Parida</p>
+                    <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                </div>
+            </div>
+
+            <div class="post-input-container">
+                <textarea rows="10" placeholder="What's on your mind , Sarbajeet ?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="images/video-solid.svg" alt="">Live Video</a>
+                    <a href="#"><img src="images/camera-solid.svg" alt="">Photo/Video</a>
+                    <a href="#"><img src="images/face-smile-regular.svg" alt="">Feeling Activity</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="post-container">
+
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile_pic.jpg" alt="">
+                    <div>
+                        <p>Sarbajeet Parida</p>
+                        <span>12 November 2023 , 6:06pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text">Hello <span>I am Sarbajeet Parida </span>, a frontend developer working at 
+                Prodapt Solutions Private Limited.    <a href="#">#LinkedIN</a> </p>
+
+                <img src="images/Prodapt.jpeg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="">120</div>
+                        <div><img src="images/comment.png" alt="">55</div>
+                        <div><img src="images/share.png" alt="">30</div>
+
+
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile_pic.jpg" alt="">
+
+                    </div>
+                </div>
+
+        </div>
+        <div class="post-container">
+
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile_pic.jpg" alt="">
+                    <div>
+                        <p>Sarbajeet Parida</p>
+                        <span>10 0ctober 2023 , 9:14pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text">Hello <span>I am , Sarbajeet Parida </span>,very much interested in editing videos .    <a href="#">#LinkedIN</a> </p>
+
+                <img src="images/video editing.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="">3000</div>
+                        <div><img src="images/comment.png" alt="">456</div>
+                        <div><img src="images/share.png" alt="">900</div>
+
+
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile_pic.jpg" alt="">
+
+                    </div>
+                </div>
+
+        </div>
+        <div class="post-container">
+
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/profile_pic.jpg" alt="">
+                    <div>
+                        <p>Sarbajeet Parida</p>
+                        <span>12 November 2023 , 6:06pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text">Hello <span>I am, Sarbajeet Parida </span>, and I like to capture photos of animals, cars , bikes , people    <a href="#">#LinkedIN</a> </p>
+
+                <img src="images/photographer.jpg" class="post-img" alt="">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="">2470</div>
+                        <div><img src="images/comment.png" alt="">570</div>
+                        <div><img src="images/share.png" alt="">800</div>
+
+
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile_pic.jpg" alt="">
+
+                    </div>
+                </div>
+
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+    </div>
+    <div class="right-side-bar">
+        <div class="sidebar-title">
+            <h4>Events</h4>
+        <a href="#">See All</a>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <!-- <i class="fa-solid fa-location-dot"></i> -->
+                
+                <p><img src="./images/location-dot-solid.svg" alt="">Bagmane Tech Park</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>30</h3>
+                <span>June</span>
+            </div>
+            <div class="right-event">
+                <h4>Motorcycle Fest</h4>
+                <p><img src="./images/location-dot-solid.svg" alt="">Manyata Tech Park</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+        <a href="#">Close</a>
+        </div>
+        <img src="images/office.jpg" class="sidebar-ads">
+        <div class="sidebar-title">
+            <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+            <div class="online">
+                <img src="images/capt-america.jpg" alt="">
+            </div>
+            <p>Captain America</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/thor.jpg" alt="">
+            </div>
+            <p>Thor</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/ironman.jpg" alt="">
+            </div>
+            <p>Ironman</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/hulk.jpg" alt="">
+            </div>
+            <p>Hulk</p>
+        </div>
+        
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <p>Copyright 2023 - Sarbajeet Parida </p>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
